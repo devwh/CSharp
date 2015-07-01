@@ -54,6 +54,8 @@ namespace 值类型和引用类型
              * string   System.String   Unicode字符串      修改字符串，会创建新的string
              */
             string s1 = @"c:\user\administrator";
+
+            // 在C#中，可以把字符串作为switch的测试变量
         }
     }
 }
