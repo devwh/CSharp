@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 // 如果子类定义了一个与基类相同签名的方法，编译器会发出警告
-// 使用new修饰方法
+// 使用new修饰方法，方法必须是公有的
 
 namespace new隐藏基类方法
 {
