@@ -53,6 +53,6 @@ namespace 属性
         }
 
         // 自动实现的属性，自动有一个 private string m_firstName;
-        public string firstName{get, set}; // 必须要有两个访问器，可以有不同的访问级别，
+        public string firstName{get; set;} // 必须要有两个访问器，可以有不同的访问级别，
     }
 }
