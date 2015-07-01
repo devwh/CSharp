@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace First
 {
-    class Program
+    class Another
     {
-        static void Main(string[] args)
+        public void func()
         {
+            Console.WriteLine("Hello World");
         }
     }
 }
