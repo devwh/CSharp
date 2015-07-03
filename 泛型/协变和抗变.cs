@@ -26,7 +26,7 @@ namespace 泛型
     }
     public class RectangleCollection : IIndex<Rectangle>
     {
-        private Rectangle[] data = new Rectangle[3]
+        private Rectangle[] data = //new Rectangle[3]
         {
             new Rectangle{},
             new Rectangle{},
