@@ -16,5 +16,15 @@ namespace 委托
         {
             return value * value;
         }
+        public static void multicastMultiplyByTwo(double value)
+        {
+            double result = value * 2;
+            Console.WriteLine("Multicast: " + result);
+        }
+        public static void multicastSquare(double value)
+        {
+            double result = value * value;
+            Console.WriteLine("Multicast: " + result);
+        }
     }
 }
